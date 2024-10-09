@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;
+}
+/*div{
+    background-color: aqua;
+}
+    */
+    .container{
+        background-color: rgb(230, 36, 234);
+        height: 500px;
+        border:2px solid rgb(57, 172, 187);
+        margin-top: 100px;
+    }
+    /*.child1{
+        background-color: rgb(215, 23, 81);
+        color:white;
+        height: 300px;
+        border:2px solid black;
+        width:300px;
+        margin-left: 200px;
+        padding:100px 50px 40px;
+        box-sizing: border-box;
+    }
+        */
+        div> p{
+            background-color: yellow;
+        }
