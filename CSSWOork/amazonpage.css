@@ -54,66 +54,22 @@ li:hover{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
 }
-/* .card11{
-    border:1px solid;
-   
-}
-.card12{
-    border:1px solid;
-}
-.card13{
-    border:1px solid;
-    
-}
-.card14{
-    border:1px solid;
-    
-} */
 .card2{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
-}
-.card21{
-    border:1px solid;
-}
-.card22{
-    border:1px solid;
-   
-}
-.card23{
-    border:1px solid;
-    
-}
-.card24{
-    border:1px solid;
-    
 }
 .card3{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
 }
-.card31{
-    border:1px solid;
-}
-.card32{
-    border:1px solid;
-}
-.card33{
-    border:1px solid;
-   
-}
-.card34{
-    border:1px solid;
-    
-}
 .card4{
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
 }
-.card41{
+/*.card41{
     border:1px solid;
    
 }
@@ -128,3 +84,4 @@ li:hover{
 .card44{
     border:1px solid;
 }
+    */
