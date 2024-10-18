@@ -1,0 +1,130 @@
+body{
+    background-color: aliceblue;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+    /* grid-template-rows: repeat(4,1fr); */
+}
+.header{
+   grid-row: 1/2;
+   grid-column: 1/13;
+   height:80px;
+   border:1px solid red; 
+   background-color: black;
+   color:aliceblue;
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.navbar{
+    grid-row: 2/3;
+    grid-column: 1/13;
+    background-color:#232f3e;
+    color:white;
+    border:1px solid greenyellow;
+    height:60px;
+}
+ul li{
+    display:inline-block;
+    padding:20px;
+    margin:0px;
+}
+li:hover{
+    background-color: cadetblue;
+}
+.wallpaper{
+    grid-row: 3/4;
+    grid-column: 1/13;
+}
+.cards{
+  grid-row: 4/5;
+  grid-column: 1/13;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card1,.card2,.card3,.card4{
+    height:300px;
+    width:250px;
+     border:1px solid black;
+}
+.card1{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+/* .card11{
+    border:1px solid;
+   
+}
+.card12{
+    border:1px solid;
+}
+.card13{
+    border:1px solid;
+    
+}
+.card14{
+    border:1px solid;
+    
+} */
+.card2{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.card21{
+    border:1px solid;
+}
+.card22{
+    border:1px solid;
+   
+}
+.card23{
+    border:1px solid;
+    
+}
+.card24{
+    border:1px solid;
+    
+}
+.card3{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.card31{
+    border:1px solid;
+}
+.card32{
+    border:1px solid;
+}
+.card33{
+    border:1px solid;
+   
+}
+.card34{
+    border:1px solid;
+    
+}
+.card4{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.card41{
+    border:1px solid;
+   
+}
+.card42{
+    border:1px solid;
+   
+}
+.card43{
+    border:1px solid;
+    
+}
+.card44{
+    border:1px solid;
+}
